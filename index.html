@@ -2,25 +2,67 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Baloon Game</title>
+    <title>🎈 Baloon Game</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Modak&display=swap" rel="stylesheet">  
+    <!-- Fonts -->
+
+    <!-- CSS -->
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "SRC/CSS_Src/index.css" />
+    <!-- CSS -->
     <style>
     	* { padding: 0; margin: 0; }
-    	canvas { background: #eee; display: block; margin: 0 auto; }
+    	canvas { background: white; display: block; margin: 0 auto; }
     </style>
 </head>
 <body>
 
-    <button onclick="">RESTART</button>
-<!-- \/ Canvas \/-->
+    
+<!-- \/ The main Game Canvas \/-->
 <canvas id="myCanvas" height="300"style="width: 900;"></canvas>
 <!-- /\ ------ /\ -->
-<style>
-    
-</style>
-<!-- Podstawowe skrypty definiujące -->
-<script src="./JS_Source/index.js">
+<!-- Game Body & Other -->
+<button onclick="" id="rst">RESTART</button>
 
-</script>
+<!--  -->
+
+<!-- Initial CSS -->
+<style>
+    #myCanvas {
+        margin-top: 100px;
+        border: 2px black solid;
+        border-radius: 45px;
+    }
+    #rst{
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        border: 2px wheat solid;
+        width: 75px;
+        height: 50px;
+    }
+</style>
+<!--  -->
+
+<!-- Scripts Loader -->
+
+<!-- Variables & Game Objects  Script -->
+<script type="text/javascript" src = "./SRC/JS_Source/methods.js"></script>
+
+<!-- GameFile Script -->
+<script type="text/javascript"  src="./SRC/JS_Source/index.js"></script>
+
+<!-- Start/Init Script -->
+<script type="text/javascript"  src = "./SRC/JS_Source/Start.js"></script>
+
+<!-- Level generator Script -->
+<script type="text/javascript"  src = "./SRC/JS_Source/LVL_Generator.js"></script>
+
 <!-- ------ -->
 
 </body>

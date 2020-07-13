@@ -1,0 +1,27 @@
+// function Fan_Random_Plus(){
+    // min = Math.ceil(paddleY);
+    // max = Math.floor(paddleX);
+    
+    // paddleY = Math.floor(Math.random() * (max - min)) + min;
+//     paddleX = Math.floor(Math.random() * (max - min)) + min;
+// }
+// function Fan_Random_Minus(min, max){
+//     min = Math.ceil(-10);
+//     max = Math.floor(-20);
+    
+//     paddleY = Math.floor(Math.random() * (max - min +1)) + min;
+//     paddleX = Math.floor(Math.random() * (max - min+ 1)) + min;
+// }
+// setInterval(Fan_Random_Minus, 1000)
+//setInterval(Fan_Random_Plus, 800)
+
+ //ctx.beginPath();
+   
+                 
+        // //    playerObj = imageObj2
+        //         var Position = []
+        //         var Rand_X = 0;
+        //        var  Rand_Y = 0;
+
+    // x += dx;
+    // y += dy;            
